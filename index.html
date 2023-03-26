@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=Fec, initial-scale=1.0">
+  <title>Facebook</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <section class="logo">
+      <h1>Facebook</h1>
+    </section>
+    <section class="form">
+      <form action="" method="get" class="email">
+      <input type="text" name="Email" id="name" placeholder="Email or Phone" required>
+      <input type="text" name="Password" id="pw" placeholder="Password" required>
+      <input type="submit" value="Log In">
+      </form>
+      <a href="">Forgot Account?</a>
+    </section>
+  </header>
+  <section class="a">
+    <h2 class="connect">Connect with friends and the world around you on Facebook.</h2>
+    <div class="a2">
+      <img class="newsfeed" src="img/newsfeed.png">
+      <p>See photos and updates from friends and News Feed.</p>
+      <img class="timeline" src="img/icon3.png">
+      <p>Share what's new in your life on your TimeLine.</p>
+      <img class="search" src="img/icon2.png">
+      <p>Find more of what you're looking for with Facebook Search.</p>
+  </div>
+  </section>
+  <section class="b">
+    <section class="signup">
+      <h1>Sign Up</h1>
+      <span>Its quick and easy.</span>
+    </section>
+    <section class="right">
+      <form action="" method="get" class="name">
+        <input type="text" name="Email" id="firstName" placeholder="First Name" required>
+        <input type="text" name="Email" id="lastName" placeholder="Last Name" required>
+       
+          <form class="mobile">
+            <input type="text" name="Email" id="phone" placeholder="Mobile number or Email" required>
+          </form>
+          
+      
+          <form class="new">
+            <input type="text" name="Email" id="password" placeholder="New password" required>
+          </form>
+      </form>
+      <form class = "container">
+        <label >Birthday  :</label>
+        <select id ="year" name = "yyyy" onchange="change_year(this)">
+        </select>
+        <select  id ="month" name = "mm" onchange="change_month(this)">
+        </select>
+        <select id ="day" name = "dd" >
+        </select>
+      </form>
+      <form>
+        <legend>Gender:</legend>
+        <div>
+          <input type="radio" id="female"name="female">
+          <label for="female">Female</label>
+        </div>
+        <div>
+          <input type="radio" id="male" name="male">
+          <label for="male">Male</label>
+
+        </div>
+        <div>
+          <input type="radio" id="custom" name="custom" >
+          <label for="female">Custom</label>
+
+        </div>
+    </form>
+    </section>
+    <section class="bottom">
+      <p>By clickin Sign up you agree to our <a href="#">Term, data Policy</a> and <a href="#">Cookies Policy.</a> You may receive SMS Notifications from us and can opt out any time.</p>
+      <button type="submit">Sign Up</button>
+      <p>Create a Page for a celebrity, brand or business</p>
+    </section>
+  </section>
+</body>
+</html>
