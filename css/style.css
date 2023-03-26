@@ -1,0 +1,101 @@
+
+*{
+  box-sizing: border-box;
+}
+header{
+  height: 150px;
+  width:100%;
+  border: 2px solid rgb(36, 100, 156);
+  float: left;
+  background-color: rgb(36, 100, 156);
+  color: white;
+}
+.logo{
+  height:150px;
+  width:50%;
+  float: left;
+  font-size: 48px;
+}
+.form{
+  height:150px;
+  width:50%;
+  float: left;
+}
+form{
+  float:left;
+  padding-top: 90px;
+  padding-left: 190px;
+}
+.form a{
+  float: left;
+    padding-left: 351px;
+}
+.a{
+  height: 600px;
+  width:50%;
+  border: 2px solid white;
+  float: left;
+}
+.connect{
+  font-size: 48px;
+  padding-left: 9px;
+}
+.newsfeed{
+  float: left;
+  padding: 0px 10px 0px 70px;
+}
+.timeline{
+  float: left;
+  padding: 0px 10px 0px 70px;
+}
+.search{
+  float: left;
+  padding: 0px 10px 0px 70px;
+}
+.b{
+  height: 600px;
+  width:50%;
+  border: 2px solid white;
+  float: left;
+}
+.signup{
+  padding-left: 205px;
+}
+.name{
+  padding-top: 10px;
+  padding-right: 185px;
+}
+.new {
+  padding-top:20px;
+}
+.mobile{
+  padding-right: 150px;
+}
+.container{
+  padding:15px;
+}
+select{
+  padding:5px;
+  width:100px;
+}
+input.date{
+  width:50px;
+  padding:5px;
+}
+h1{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+span{
+  font-size:20px;
+}
+.bottom{
+  float:left;
+  text-align: center;
+  margin-top: 200px;
+}
+@media screen and (max-width: 768px) {
+  header {
+    background-color: red;
+  }
+}

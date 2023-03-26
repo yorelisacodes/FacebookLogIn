@@ -1,0 +1,163 @@
+
+*{
+  box-sizing: border-box;
+}
+header{
+  height: 150px;
+  width:100%;
+  border: 2px solid  rgb(56 115 227);
+  float: left;
+  background-color:  rgb(56 115 227);
+  color: white;
+}
+.top a{
+  color: white;
+}
+.logo{
+  height:150px;
+  width:50%;
+  float: left;
+  font-size: 48px;
+  padding-left: 4%
+}
+.form{
+  height:150px;
+  width:50%;
+  float: left;
+  padding-top: 3%;
+  padding-left: 15%;
+}
+#name{
+  width:64%;
+}
+body > header > section.form > form > input[type=submit]:nth-child(3){
+  margin: 1%;
+  background: #2653aa;
+  border: none;
+  color: white;
+  width: 19%;
+  height: 25px;
+  border-radius: 3px;
+}
+form{
+  float:left;
+  display: flex;
+}
+.form a{
+  float: left;
+    padding-left: 351px;
+}
+.a{
+  height: 100vh;
+  width:50%;
+  float: left;
+  background-color: #f5f6f7;
+  padding-right: 10%;
+  padding-left: 7%;
+  display: flex;
+  flex-direction: column;
+}
+.connect{
+  font-size: 48px;
+  padding-left: 9px;
+}
+
+.newsfeed{
+  float: left;
+}
+.timeline{
+  float: left;
+  width: 6%;
+}
+.search{
+  float: left;
+  width: 8%;
+}
+.b{
+ 
+  width: 50%;
+  float: left;
+  background-color: #f5f6f7;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-right: 10%
+}
+body > section.b > section.right{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.name{
+  padding-top: 10px;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#firstName{
+  padding: 5px;
+  height: 25px;
+  width: 50%; 
+}
+#lastName{
+  padding: 5px;
+  height: 25px;
+  width: 50%;
+}
+#phone{
+  padding: 5px;
+  width: 326px;
+  margin-top: 7%;
+}
+#pw{
+  padding: 5px;
+  width: 324px;
+}
+.new {
+  padding-top:20px;
+}
+.mobile{
+  padding-right: 150px;
+}
+.container{
+  padding: 20px;
+  width: 100%;
+}
+body > section.b > section.right > form.new{
+  width: 100%;
+}
+body > section.b > section.right > form:nth-child(4){
+  display: flex;
+}
+select{
+  padding:5px;
+  width:100px;
+}
+input.date{
+  width:50px;
+  padding:5px;
+}
+h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+span{
+  font-size:20px;
+}
+.bottom{
+  float:left;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 12px;
+}
+.bottom button{
+  background: #00a400;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  height: 30px;
+  width: 18%;
+  font-weight: bolder;
+}
